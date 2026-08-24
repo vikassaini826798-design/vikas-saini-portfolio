@@ -165,6 +165,38 @@
             border-color: #38bdf8;
         }
 
+
+        .project {
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .project-img {
+            width: calc(100% + 56px);
+            height: 190px;
+            object-fit: cover;
+            margin: -28px -28px 22px -28px;
+            border-bottom: 1px solid #334155;
+            background: #0f172a;
+            transition: 0.3s;
+        }
+
+        .project:hover .project-img {
+            transform: scale(1.03);
+        }
+
+        .project .tag {
+            margin-top: auto;
+            align-self: flex-start;
+        }
+
+        @media (max-width: 700px) {
+            .project-img {
+                height: 180px;
+            }
+        }
+
         .project h3 {
             color: #38bdf8;
             margin-bottom: 12px;
@@ -314,6 +346,66 @@
     <div class="projects">
 
         <div class="project">
+            <img class="project-img" src="images/covid-19-dashboard.png" alt="COVID-19 Data Analysis Dashboard">
+            <h3>COVID-19 Data Analysis Dashboard</h3>
+            <p>
+                Interactive dashboard analyzing COVID-19 cases, deaths, recovered
+                and active cases across Indian states with filters and visual insights.
+            </p>
+            <span class="tag">Excel</span>
+        </div>
+
+        <div class="project">
+            <img class="project-img" src="images/motorola-sales-dashboard.png" alt="Motorola Sales Dashboard">
+            <h3>Motorola Sales Dashboard</h3>
+            <p>
+                Interactive sales dashboard covering revenue, quantity, transactions,
+                mobile models, payment methods, ratings and day-wise performance.
+            </p>
+            <span class="tag">Power BI</span>
+        </div>
+
+        <div class="project">
+            <img class="project-img" src="images/ecommerce-sales-dashboard.png" alt="E-commerce Sales Dashboard">
+            <h3>E-commerce Sales Dashboard</h3>
+            <p>
+                Sales and profit analysis dashboard showing state-wise amount,
+                category quantity, payment modes, monthly profit and sub-category performance.
+            </p>
+            <span class="tag">Power BI</span>
+        </div>
+
+        <div class="project">
+            <img class="project-img" src="images/banking-transaction-dashboard.png" alt="Banking Transaction Analysis Dashboard">
+            <h3>Banking Transaction Analysis Dashboard</h3>
+            <p>
+                Banking dashboard analyzing transaction amount, status, transaction
+                types, branches, categories and transaction modes.
+            </p>
+            <span class="tag">Power BI</span>
+        </div>
+
+        <div class="project">
+            <img class="project-img" src="images/monthly-sales-report.png" alt="Monthly Sales Report and Tracker">
+            <h3>Monthly Sales Report &amp; Tracker</h3>
+            <p>
+                Monthly sales tracking dashboard with product, salesperson,
+                payment method, state, daily sales and profit analysis.
+            </p>
+            <span class="tag">Excel</span>
+        </div>
+
+        <div class="project">
+            <img class="project-img" src="images/ecommerce-sales-dashboard-2.png" alt="E-commerce Sales Dashboard Alternate View">
+            <h3>E-commerce Sales Dashboard – Alternate View</h3>
+            <p>
+                Additional dashboard view focused on sales, profit, quantity,
+                payment mode and customer-level performance analysis.
+            </p>
+            <span class="tag">Power BI</span>
+        </div>
+
+        <div class="project">
             <h3>Amazon SQL Analysis</h3>
             <p>
                 SQL-based data analysis project focused on extracting
@@ -321,6 +413,16 @@
             </p>
             <span class="tag">SQL</span>
         </div>
+
+        <div class="project">
+            <h3>Adidas Power BI Dashboard</h3>
+            <p>
+                Interactive Power BI dashboard created for analyzing Adidas sales data and business performance.
+            </p>
+            <span class="tag">Power BI</span>
+        </div>
+
+    </div>
 
         <div class="project">
             <h3>COVID-19 Excel Dashboard</h3>
