@@ -4,48 +4,402 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vikas Saini | Data Analyst Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: #e2e8f0;
+            line-height: 1.6;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background: #111827;
+            padding: 18px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #334155;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #38bdf8;
+        }
+
+        nav a {
+            color: #e2e8f0;
+            text-decoration: none;
+            margin-left: 25px;
+            font-size: 15px;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        section {
+            padding: 80px 8%;
+        }
+
+        .hero {
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 58px;
+            margin-bottom: 10px;
+        }
+
+        .hero h1 span {
+            color: #38bdf8;
+        }
+
+        .hero h2 {
+            font-size: 28px;
+            color: #94a3b8;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            max-width: 700px;
+            margin: auto;
+            color: #cbd5e1;
+            font-size: 18px;
+        }
+
+        .buttons {
+            margin-top: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            margin: 8px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            background: #38bdf8;
+            color: #0f172a;
+        }
+
+        .btn:hover {
+            background: #7dd3fc;
+        }
+
+        .btn-outline {
+            background: transparent;
+            border: 1px solid #38bdf8;
+            color: #38bdf8;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 45px;
+            color: #38bdf8;
+        }
+
+        .about {
+            max-width: 850px;
+            margin: auto;
+            text-align: center;
+            color: #cbd5e1;
+            font-size: 18px;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .skill {
+            background: #1e293b;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            border: 1px solid #334155;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .skill:hover {
+            transform: translateY(-5px);
+            border-color: #38bdf8;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 25px;
+        }
+
+        .project {
+            background: #1e293b;
+            padding: 28px;
+            border-radius: 14px;
+            border: 1px solid #334155;
+            transition: 0.3s;
+        }
+
+        .project:hover {
+            transform: translateY(-8px);
+            border-color: #38bdf8;
+        }
+
+        .project h3 {
+            color: #38bdf8;
+            margin-bottom: 12px;
+        }
+
+        .project p {
+            color: #cbd5e1;
+        }
+
+        .tag {
+            display: inline-block;
+            margin-top: 18px;
+            padding: 5px 10px;
+            border-radius: 20px;
+            background: #0f172a;
+            color: #7dd3fc;
+            font-size: 13px;
+        }
+
+        .education {
+            max-width: 700px;
+            margin: auto;
+            text-align: center;
+            background: #1e293b;
+            padding: 30px;
+            border-radius: 14px;
+            border: 1px solid #334155;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact p {
+            margin: 15px 0;
+            font-size: 18px;
+        }
+
+        .contact a {
+            color: #38bdf8;
+            text-decoration: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #111827;
+            color: #94a3b8;
+            border-top: 1px solid #334155;
+        }
+
+        @media (max-width: 700px) {
+            nav {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            nav a {
+                margin: 5px;
+            }
+
+            .hero h1 {
+                font-size: 40px;
+            }
+
+            .hero h2 {
+                font-size: 22px;
+            }
+        }
+    </style>
 </head>
 
 <body>
 
-    <h1>Vikas Saini</h1>
-    <h2>Data Analyst</h2>
+<nav>
+    <div class="logo">Vikas Saini</div>
 
-    <p>
-        Hi, I'm Vikas Saini, a Data Analyst Fresher with skills in
-        SQL, Advanced Excel, Power BI and Python.
-    </p>
+    <div>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
 
-    <h2>Skills</h2>
-    <ul>
-        <li>SQL</li>
-        <li>Advanced Excel</li>
-        <li>Power BI</li>
-        <li>Python</li>
-        <li>Data Visualization</li>
-    </ul>
+<section class="hero">
+    <div>
+        <h1>Hi, I'm <span>Vikas Saini</span></h1>
+        <h2>Data Analyst</h2>
 
-    <h2>Projects</h2>
+        <p>
+            Data Analyst Fresher passionate about transforming raw data
+            into meaningful insights using SQL, Advanced Excel, Power BI
+            and Python.
+        </p>
 
-    <h3>Amazon SQL Analysis</h3>
-    <p>SQL-based data analysis project focused on extracting insights from sales data.</p>
+        <div class="buttons">
+            <a class="btn" href="#projects">View My Projects</a>
 
-    <h3>COVID-19 Excel Dashboard</h3>
-    <p>Interactive Excel dashboard created for analyzing COVID-19 data and trends.</p>
+            <a class="btn btn-outline"
+               href="https://github.com/vikassaini826798-design"
+               target="_blank">
+                GitHub
+            </a>
+        </div>
+    </div>
+</section>
 
-    <h3>Motorola Power BI Dashboard</h3>
-    <p>Power BI dashboard for analyzing sales and business performance.</p>
+<section id="about">
+    <h2 class="section-title">About Me</h2>
 
-    <h3>Adidas Power BI Dashboard</h3>
-    <p>Interactive Power BI dashboard for analyzing Adidas sales data.</p>
+    <div class="about">
+        <p>
+            I'm Vikas Saini, a Data Analyst Fresher with a strong interest
+            in data analysis and visualization. I enjoy working with data
+            to identify patterns, generate insights and support
+            data-driven decision making.
+        </p>
 
-    <h2>Education</h2>
-    <p>BCA</p>
-    <p>MCA - Pursuing</p>
+        <br>
 
-    <h2>Contact</h2>
-    <p>Email: Your Email</p>
-    <p>LinkedIn: Your LinkedIn Profile</p>
+        <p>
+            My core skills include SQL, Advanced Excel, Power BI,
+            Python and Data Visualization. I am continuously building
+            real-world projects to improve my analytical skills.
+        </p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skills">
+        <div class="skill">SQL</div>
+        <div class="skill">Advanced Excel</div>
+        <div class="skill">Power BI</div>
+        <div class="skill">Python</div>
+        <div class="skill">Data Visualization</div>
+        <div class="skill">Data Analysis</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="projects">
+
+        <div class="project">
+            <h3>Amazon SQL Analysis</h3>
+            <p>
+                SQL-based data analysis project focused on extracting
+                useful business insights from sales data.
+            </p>
+            <span class="tag">SQL</span>
+        </div>
+
+        <div class="project">
+            <h3>COVID-19 Excel Dashboard</h3>
+            <p>
+                Interactive Excel dashboard created for analyzing
+                COVID-19 data, trends and key metrics.
+            </p>
+            <span class="tag">Excel</span>
+        </div>
+
+        <div class="project">
+            <h3>Motorola Power BI Dashboard</h3>
+            <p>
+                Power BI dashboard designed to analyze sales and
+                business performance using interactive visualizations.
+            </p>
+            <span class="tag">Power BI</span>
+        </div>
+
+        <div class="project">
+            <h3>Adidas Power BI Dashboard</h3>
+            <p>
+                Interactive Power BI dashboard created for analyzing
+                Adidas sales data and business performance.
+            </p>
+            <span class="tag">Power BI</span>
+        </div>
+
+    </div>
+</section>
+
+<section id="education">
+    <h2 class="section-title">Education</h2>
+
+    <div class="education">
+        <h3>BCA</h3>
+        <p>Bachelor of Computer Applications</p>
+
+        <br>
+
+        <h3>MCA - Pursuing</h3>
+        <p>Master of Computer Applications</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2 class="section-title">Contact Me</h2>
+
+    <div class="contact">
+
+        <p>
+            📧 Email:
+            <a href="mailto:vikassaini826798@gmail.com">
+                vikassaini826798@gmail.com
+            </a>
+        </p>
+
+        <p>
+            🔗 LinkedIn:
+            <a href="https://www.linkedin.com/in/vikas-saini-50205527b"
+               target="_blank">
+                View LinkedIn Profile
+            </a>
+        </p>
+
+        <p>
+            🐙 GitHub:
+            <a href="https://github.com/vikassaini826798-design"
+               target="_blank">
+                View GitHub Profile
+            </a>
+        </p>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Vikas Saini | Data Analyst Portfolio</p>
+</footer>
 
 </body>
 </html>
