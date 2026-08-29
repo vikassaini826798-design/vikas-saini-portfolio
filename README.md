@@ -185,8 +185,7 @@ I enjoy working with data, building dashboards, and solving analytical problems.
 ---
 
 ## 📄 Resume
-## 📄 Resume
-[Download My Resume](https://drive.google.com/file/d/1Xff166mPKPG_epeMh74IKd8VPbqaorKG/view?usp=drive_link)
+[view My Resume](https://drive.google.com/file/d/1Xff166mPKPG_epeMh74IKd8VPbqaorKG/view?usp=drive_link)
 
 
 ---
