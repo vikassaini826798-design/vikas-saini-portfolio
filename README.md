@@ -53,11 +53,6 @@ I enjoy working with data, building dashboards, and solving analytical problems.
 
 ---
 
-## 🎓 Education
-- **BCA** – Dr. K.N. Modi Foundation, Modinagar (Affiliated with CCS University)  
-- **MCA (Second Year)** – Dewan Institute of Management Studies, Meerut  
-
----
 
 ## 🎓 Education
 - **BCA** – Dr. K.N. Modi Foundation, Modinagar (Affiliated with CCS University)  
@@ -68,10 +63,6 @@ I enjoy working with data, building dashboards, and solving analytical problems.
 ## 📄 Resume
 [view My Resume](https://drive.google.com/file/d/1Xff166mPKPG_epeMh74IKd8VPbqaorKG/view?usp=drive_link)
 
----
-
-## 🎯 Career Goal
-To become a professional **Data Analyst** and contribute to business growth by transforming raw data into meaningful insights.
 
 ---
 
