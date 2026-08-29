@@ -11,7 +11,7 @@ I enjoy working with data, building dashboards, and solving analytical problems.
 ---
 
 ## 💼 Experience
-- Academic projects in DBMS, Python, and Java  
+- Academic projects in DBMS, Python, 
 - Built multiple dashboards and reports using Power BI and Excel  
 - Hands-on practice with SQL queries and optimization  
 - Data visualization projects using Python libraries (Pandas, Matplotlib, Seaborn)
