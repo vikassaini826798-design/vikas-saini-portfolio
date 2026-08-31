@@ -16,7 +16,6 @@ I enjoy working with data, building dashboards, and solving analytical problems.
 - Built dashboards and reports using Power BI and Excel during coursework.  
 - Practiced data visualization and analysis using Python libraries (Pandas, Matplotlib, Seaborn).  
 
-
 ---
 
 ## 🛠 Technical Skills
