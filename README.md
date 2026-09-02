@@ -30,7 +30,7 @@ Passionate about Data Analysis, Dashboards, and Web Development.
 ## 🛠️ Skills Used
 - **Programming:** Python, SQL  
 - **Tools:** Power BI, Excel  
-- **Web:** HTML, CSS  
+- **Web:** HTML  
 
 ---
 
