@@ -1,84 +1,39 @@
-# 👋 Hi, I'm Vikas Saini  
-*MCA Second Year Student | Aspiring Data Analyst | SQL • Python • Power BI • Excel*
+# 📂 Vikas Saini - Projects Collection
 
----
-
-## 👨‍💻 About Me
-I am passionate about data analysis and business intelligence.  
-Currently pursuing MCA from Dewan Institute of Management Studies, Meerut, after completing BCA from Dr. K.N. Modi Foundation, Modinagar (affiliated with CCS University).  
-I enjoy working with data, building dashboards, and solving analytical problems.
-
----
-
-## 💼 Experience
-- I am a **Fresher**, currently pursuing MCA (Second Year).  
-- Hands-on experience through academic projects in DBMS, Python, and SQL.  
-- Built dashboards and reports using Power BI and Excel during coursework.  
-- Practiced data visualization and analysis using Python libraries (Pandas, Matplotlib, Seaborn).  
-
----
-
-## 🛠 Technical Skills
-- **Programming:** Python, SQL  
-- **Tools:** Power BI, Excel  
-- **Concepts:** Data Cleaning, Visualization, Reporting, Business Intelligence  
-- **Other:** GitHub, Version Control, HTML basics
+## 👨‍🎓 About
+MCA Second Year Student | Aspiring Data Analyst  
+Passionate about Data Analysis, Dashboards, and Web Development.  
 
 ---
 
 ## 📊 Projects
-### 1. Sales Dashboard (Power BI)
-- Interactive dashboard for analyzing sales performance  
-- KPIs, trend analysis, regional comparison  
 
-### 2. SQL Database Management
-- Complex queries with joins, window functions, indexing  
-- Optimized queries for large datasets  
+### 1. Sales Dashboard (Power BI)
+- Interactive dashboard for analyzing sales data  
+- Features: Filters, KPIs, Region-wise comparison  
+- Skills: Power BI, Data Visualization  
+
+### 2. SQL Queries & Database Management
+- Complex joins, window functions, optimization examples  
+- Skills: SQL, Database Design  
 
 ### 3. Python Data Analysis
-- Customer segmentation and trend analysis  
-- Visualizations using Pandas, Matplotlib, Seaborn  
+- Exploratory Data Analysis using Pandas, Matplotlib, Seaborn  
+- Skills: Python, Data Cleaning, Visualization  
 
-### 4. Excel Dashboard
-- Revenue and sales insights using pivot tables, charts, slicers  
-
----
-
-## 🔄 My Analytics Workflow
-1. Data Collection  
-2. Data Cleaning & Preprocessing  
-3. Exploratory Data Analysis (EDA)  
-4. Visualization & Dashboard Creation  
-5. Reporting & Insights  
+### 4. Portfolio Website (HTML/CSS)
+- Personal portfolio website showcasing education & skills  
+- Skills: HTML, CSS, Web Design  
 
 ---
 
-
-## 🎓 Education
-- **BCA** – Dr. K.N. Modi Foundation, Modinagar (Affiliated with CCS University)  
-- **MCA (Second Year)** – Dewan Institute of Management Studies, Meerut  
-
----
-
-## 📄 Resume
-[view My Resume](https://drive.google.com/file/d/1Xff166mPKPG_epeMh74IKd8VPbqaorKG/view?usp=drive_link)
-
+## 🛠️ Skills Used
+- **Programming:** Python, SQL  
+- **Tools:** Power BI, Excel  
+- **Web:** HTML, CSS  
 
 ---
 
-## 📞 Contact Me
-- 📧 Email:  [vikassaini826798@gmail.com]
-- 📱 Phone:  [7300721477]  
-- 🔗 LinkedIn: [https://www.linkedin.com/in/vikas-saini-50205527b](https://www.linkedin.com/in/vikas-saini-50205527b)  
-- 💻 GitHub: [https://github.com/vikassaini826798-design](https://github.com/vikassaini826798-design)  
-
-
----
-
-## 🎯 Career Goal
-To become a professional **Data Analyst** and contribute to business growth by transforming raw data into meaningful insights.
-
----
-
-## 🙏 Thanks
-✨ *Thank you for visiting my profile and exploring my work!*  
+## 🔗 Connect
+- [LinkedIn](https://www.linkedin.com/in/vikas-saini-50205527b)  
+- [GitHub](https://github.com/vikassaini826798-design)
